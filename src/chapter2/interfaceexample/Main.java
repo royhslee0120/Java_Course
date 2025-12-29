@@ -1,0 +1,30 @@
+package chapter2.interfaceexample;
+
+public class Main {
+
+    static void main() {
+        // 인스턴스화
+        LuxuryCar luxuryCar = new LuxuryCar();
+        SpeedCar speedCar = new SpeedCar();
+
+        // 활용
+//        luxuryCar.move();
+//        luxuryCar.stop();
+
+//        speedCar.move();
+//        speedCar.stop();
+//        speedCar.drive();
+
+        // 인터페이스 활용
+        luxuryCar.drive();
+        speedCar.drive();
+
+        luxuryCar.stop();
+        speedCar.stop();
+
+        luxuryCar.charge();
+        speedCar.autoParking();
+
+
+    }
+}
